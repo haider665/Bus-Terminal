@@ -1,0 +1,21 @@
+#home{
+	margin:30px;
+	padding:0px 50px;
+	font-family: 'Lobster',cursive;
+	color:#B03A2E;
+	
+}
+a{
+	color:#B03A2E;
+}
+#sr{
+
+  font-size:25px;
+  text-align:center;
+  margin:0 auto;
+}
+option[value=""][disabled] {
+  display: none;
+}
+
+

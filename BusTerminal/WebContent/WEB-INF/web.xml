@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>BusTerminal</display-name>
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.controller.Test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TransportCompanySignUpClass</servlet-name>
+    <servlet-class>com.controller.TransportCompanySignUpClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TransportCompanySignUpClass</servlet-name>
+    <url-pattern>/transportCompanySignUpClass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TransportCompany</servlet-name>
+    <servlet-class>com.controller.TransportCompany</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TransportCompany</servlet-name>
+    <url-pattern>/transportCompany</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BusClass</servlet-name>
+    <servlet-class>com.controller.BusClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BusClass</servlet-name>
+    <url-pattern>/busClass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserSignUp</servlet-name>
+    <servlet-class>com.controller.UserSignUpClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSignUp</servlet-name>
+    <url-pattern>/userSignUp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserSignIn</servlet-name>
+    <servlet-class>com.controller.UserSignInClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSignIn</servlet-name>
+    <url-pattern>/userSignIn</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SearchRouteClass</servlet-name>
+    <servlet-class>com.controller.SearchRouteClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchRouteClass</servlet-name>
+    <url-pattern>/searchRouteClass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BookingHistory</servlet-name>
+    <servlet-class>com.controller.BookingHistory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingHistory</servlet-name>
+    <url-pattern>/bookingHistory</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>AdminLogIn</servlet-name>
+    <servlet-class>com.controller.AdminLogIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogIn</servlet-name>
+    <url-pattern>/adminLogIn</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CompanyRequestForAdmin</servlet-name>
+    <servlet-class>com.controller.CompanyRequestForAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CompanyRequestForAdmin</servlet-name>
+    <url-pattern>/companyRequest</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserRequestForAdmin</servlet-name>
+    <servlet-class>com.controller.UserRequestForAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRequestForAdmin</servlet-name>
+    <url-pattern>/userRequest</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
+
+
